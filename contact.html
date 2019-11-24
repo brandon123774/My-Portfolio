@@ -6,44 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+        <!-- Bootstrap Link CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap JS, Popper.js jQuery Link  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Intro to Contact -->
-    <div class="contact-info">
-        <p>To inquire about Brandon and the services that he has to offer, please fill out the form.</p>
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Brandon Shankar</h1>
+        </div>
     </div>
+
     <!-- Contact Form -->
     <div id="main-container" class="container">
         <section class="main-section">
             <h1>Contact</h1>
+            <!-- Intro to Contact -->
+            <div class="contact-info">
+                <p>To inquire about Brandon and the services that he has to offer, please select a method of contact.
+                </p>
+            </div>
 
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit">
-            </form>
+            <address>
+                Email: <a href="mailto:bshankar12@comcast.net">Brandon Shankar</a>.
+            </address>
 
-        </section>
+
+
 
     </div>
 
     <!-- Menu Bar -->
     <header id="masthead">
         <nav>
-            <a href="../My-Portfolio/about.html">About</a>
+            <a href="../My-Portfolio/index.html">About</a>
             <a href="../My-Portfolio/portfolio.html">Portfolio</a>
             <a href="../My-Portfolio/contact.html">Contact</a>
         </nav>
