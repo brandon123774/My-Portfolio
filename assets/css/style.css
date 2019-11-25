@@ -1,6 +1,23 @@
 h1  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    color: silver;
+}
+
+h2  {
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("../images/bg.jpeg");
+    background-size: 2000px;
+}
+
+p {
+    color: silver;
+
 }
 
 #masthead {
@@ -9,6 +26,7 @@ h1  {
 
 footer{
     text-align: center;
+    color: silver;
 }
 
 .main-section   {
