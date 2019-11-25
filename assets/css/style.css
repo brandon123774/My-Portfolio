@@ -1,0 +1,16 @@
+h1  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#masthead {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.main-section   {
+    align-items: center;
+}
