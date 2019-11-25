@@ -1,29 +1,36 @@
+/* h1 tags*/
 h1  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: silver;
+    color:white;
 }
 
+/* h2 tags*/
 h2  {
     text-align: center;
-    color: navy;
+    color:white;
     font-weight: bold;
 }
 
+/* body tags*/
 body{
-    background-image: url("../images/bg.jpeg");
-    background-size: 2000px;
+  background-color: black;
 }
 
+/* p tags*/
 p {
     color: silver;
 
 }
-
+.jumbotron  {
+    background-image: url("../images/bbgg.jpg");
+}
+/* banner tag*/
 #masthead {
     text-align: center;
 }
 
+/* footer tag*/
 footer{
     text-align: center;
     color: silver;
@@ -31,4 +38,34 @@ footer{
 
 .main-section   {
     align-items: center;
+}
+
+/* desktop view */
+@media screen and (max-width: 980px)  {
+    .container  {
+        max-width: 980px;
+    }
+}      
+
+/* tablet view */
+@media screen and (max-width: 768px)  {
+    .container  {
+        max-width: 768px;
+    }
+}
+
+/* mobile view */
+@media screen and (max-width: 640px)  {
+    #logo  {
+        position: static;
+    }
+    .container  {
+        max-width: 640px;
+    }
+    nav {
+        position: static;
+        display: inline-block;
+        text-align: center;
+    }
+
 }
