@@ -3,7 +3,7 @@ var express = require("express");
 var app = express();
 
 //port
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
 //enable cors
 var corsOptions = {
