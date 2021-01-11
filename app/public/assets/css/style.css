@@ -14,13 +14,17 @@ h2  {
 
 /* body tags*/
 body{
-  background-color: black;
+  background-color: navy;
 }
 
 /* p tags*/
 p {
     color: silver;
 
+}
+
+li  {
+    color: silver;
 }
 .jumbotron  {
     background-image: url("../images/bb1.jpeg");
@@ -30,10 +34,16 @@ p {
     text-align: center;
 }
 
+/* img tags */
+img {
+    width: 200px;
+    height: 200px;
+}
+
 /* footer tag*/
 footer{
     text-align: center;
-    color: silver;
+    color: white;
 }
 
 .main-section   {
