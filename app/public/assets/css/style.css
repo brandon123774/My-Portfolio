@@ -6,19 +6,19 @@ head{
 h1  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 /* h2 tags*/
 h2  {
     text-align: center;
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight: bold;
 }
 
 /* body tags*/
 body{
-  background-color: navy;
+  background-color: rgb(127, 127, 144);
 }
 
 * {
@@ -60,21 +60,17 @@ body{
     border: 0 none;
   }
 
-  .center   {
-    align-items: center;
-
-  }
 /* p tags*/
 p {
-    color: silver;
+    color: black;
 
 }
 
 li  {
-    color: silver;
+    color: black;
 }
 .jumbotron  {
-    background-image: url("../images/bb1.jpeg");
+    background-image: url("../images/bgm_top.jpeg");
 }
 /* banner tag*/
 #masthead {
@@ -97,8 +93,8 @@ footer {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
+    color: #000000;
+    color: #000000;
     text-align: center;
     background: #ffffff;
     border-top: 8px solid #044b7d;
@@ -108,7 +104,45 @@ footer {
 .main-section   {
     align-items: center;
 }
-
+  /* contact page */
+  
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #044b7d;
+    border: 0 none;
+  }
 /* desktop view */
 @media screen and (max-width: 980px)  {
     .container  {
@@ -145,8 +179,8 @@ footer {
 
 }
 
-.img {
+/* .img {
     width: 200px;
     height: 200px;
     
-}
+} */

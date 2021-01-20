@@ -71,29 +71,46 @@
     <!-- Contact Form -->
     <div id="main-container" class="container">
         <section class="main-section">
-            <!-- <h1>Contact</h1> -->
-            <!-- Intro to Contact -->
-            <div class="contact-info">
-                <p>To inquire about Brandon and the services that he has to offer, please select a method of contact.
-                </p>
-            </div>
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+                <div class="contact-info">
+                    <p>To inquire about Brandon and the services that he has to offer, please select a method of
+                        contact.
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@example.com"
+                            required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+
             <!-- Links to me -->
-            <!-- <p>Phone Number: 209-499-6882</p> -->
+
             <p>
                 <a href="https://docs.google.com/document/d/14R8U5BYAYSjoyG_YGIlSbKupLZzWDmwAN6JryCLLBK0/edit?usp=sharing">Resume</a>
-            </p>
-
-            <address>
-                <a href="mailto:bshankar12@comcast.net">Email</a>
-            </address>
-
+            <address><a href="mailto:bshankar12@comcast.net">Email</a></address>
             <a href="https://www.linkedin.com/in/brandon-shankar-b3ba87132/">LinkedIn</a>
-            <div>
-                <a href="https://github.com/brandon123774">Github</a>
-            </div>
-
+            <br>
+            <br>
+            <a href="https://github.com/brandon123774">Github</a>
+            </p>
+        </section>
 
     </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
