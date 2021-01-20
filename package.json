@@ -1,9 +1,10 @@
 {
-  "name": "My-Portfolio",
+  "name": "my-portfolio",
   "version": "1.0.0",
   "description": "## Table of Contents * Introduction * Interesting bits of code * Technologies Used",
   "main": "server.js",
   "dependencies": {
+    "debug": "^4.3.1",
     "express": "^4.17.1",
     "path": "^0.12.7"
   },
